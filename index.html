@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="">
+
+        <div class="search">
+            <div class="">
+                <input name="search-country" type="text" placeholder="Country / Currency" />
+            </div>
+            <div class="countries-list">
+
+            </div>
+            <!-- <div class="flex">
+                <img class="icon" src="flags/usa.jpg" />
+                <div class="">
+                    <p class="title">$ USD</p>
+                    <p class="subtitle">United States of America</p>
+                </div>
+            </div> -->
+        </div>
+
+        <div class="converter">
+            <div>
+                <div class="flex icon">
+                    <input name="base" value="0" inputmode='none' />
+                    <span class="symbol" data-flag-for="base"></span>
+                    <img data-flag-for="base" class="flag" src="flags/usa.jpg" />
+                </div>
+                <div class="flex icon">
+                    <input name="quote" value="0" inputmode='none' />
+                    <span class="symbol" data-flag-for="quote"></span>
+                    <img data-flag-for="quote" class="flag" src="flags/nigeria.jpg" />
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="numbers">
+            <div class="num">1</div>
+            <div class="num">2</div>
+            <div class="num">3</div>
+            <div class="num">4</div>
+            <div class="num">5</div>
+            <div class="num">6</div>
+            <div class="num">7</div>
+            <div class="num">8</div>
+            <div class="num">9</div>
+            <div class="num">.</div>
+            <div class="num">0</div>
+            <div class="num">
+                <span>
+                    <svg width="25px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fff" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M2.515 10.674a1.875 1.875 0 000 2.652L8.89 19.7c.352.351.829.549 1.326.549H19.5a3 3 0 003-3V6.75a3 3 0 00-3-3h-9.284c-.497 0-.974.198-1.326.55l-6.375 6.374zM12.53 9.22a.75.75 0 10-1.06 1.06L13.19 12l-1.72 1.72a.75.75 0 101.06 1.06l1.72-1.72 1.72 1.72a.75.75 0 101.06-1.06L15.31 12l1.72-1.72a.75.75 0 10-1.06-1.06l-1.72 1.72-1.72-1.72z" clip-rule="evenodd" />
+                    </svg>                                    
+                </span>
+            </div>
+        </div>
+
+    </main>
+    
+    <script src="currencies.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
