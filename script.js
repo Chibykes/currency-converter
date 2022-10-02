@@ -207,7 +207,7 @@ function showCurrencies(currenciesList = currencies, emptyFirst = false){
 
         img.classList.add('icon');
         img.src = flag;
-        img.loading = lazy;
+        img.loading = "lazy";
 
         p1.classList.add('title');
         p1.innerHTML = `${details?.code} &nbsp;&nbsp;-&nbsp;&nbsp; ${details?.symbol}`;
