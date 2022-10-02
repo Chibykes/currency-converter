@@ -180,7 +180,7 @@ span.symbol{
 @media screen and (min-width: 600px) {
     main{
         /* max-width: calc((var(--btn-size)*3) + (var(--btn-gap) * 4)); */
-        max-width: 80%;
+        max-width: 60%;
     }
 }
 
